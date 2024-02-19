@@ -1,8 +1,6 @@
 venv/
 .idea/
 signatures.zip
-data_pairs/
+image_pairs/
 distances/
 models/
-y_test.npy
-y_train.npy

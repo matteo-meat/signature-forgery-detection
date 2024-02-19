@@ -19,4 +19,8 @@ The data used can be downloaded from the following links:
 All the models and notebooks in this repository have been developed on  [Kaggle](https://www.kaggle.com/), links below:  
   
 [make_pairs](https://www.kaggle.com/code/matteocarnebella/make-pairs/notebook): utility notebook to create image pairs from the original CEDAR dataset. The results are saved as X.npy(pairs) and y.npy(labels);  
-[SVM model](https://www.kaggle.com/code/matteocarnebella/svm-model/notebook): SVM model's notebook. Takes as input the image pairs created with make_pairs notebook and (optionally) saves the svm models;
+[SVM model](https://www.kaggle.com/code/matteocarnebella/svm-model/notebook): SVM model's notebook. Takes as input the image pairs created with make_pairs notebook and (optionally) saves the svm models;  
+[Siamese Network](https://www.kaggle.com/code/matteocarnebella/siamese-network): Siamese Network's notebook. Takes as input the image pairs created with make_pairs notebook and (optionally) saves the model.
+
+## Pre-trained models
+Pre-trained models can be found in this Google Drive [directory](https://drive.google.com/drive/folders/13Gx4ugWCZ03gNefSAHvQ0i9oCmLXwWNh?usp=sharing).

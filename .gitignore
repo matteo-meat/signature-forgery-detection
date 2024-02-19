@@ -1,0 +1,6 @@
+venv/
+.idea/
+signatures.zip
+image_pairs/
+distances/
+models/

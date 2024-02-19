@@ -9,6 +9,14 @@ Even when genuine and from the same person, two or more signatures will never be
 ## Data
 
 The data used can be downloaded from the following links:  
+  
 [CEDAR dataset](https://drive.google.com/file/d/1RY0nkJ7GV_B7Tm_8UxtNdeeDo3T3Y4My/view?usp=sharing): the original image dataset, used to generate image pairs;  
 [Image pairs](https://drive.google.com/file/d/16eozvfDptosXc4CxUXoX2QXe2GwXzbj8/view?usp=sharing): image pairs and labels, divided into X(pairs) and y(labels). Stored as .npy files;  
 [HOG Distances](https://drive.google.com/file/d/1-DnM0OEKO7OxW3sTMwWeAHgJM0jlY1dM/view?usp=sharing): HOG distances and labels, computed from the image pairs sets and divided into train and test sets. Stored as .npy files. To be used to run the SVM locally on machines with low resources, since loading the pairs and computing the distances from scratch can take lots of RAM and time.
+
+## Kaggle Notebooks
+
+All the models and notebooks in this repository have been developed on  [Kaggle](kaggle.com), links below:  
+  
+[make_pairs](https://www.kaggle.com/code/matteocarnebella/make-pairs/notebook): utility notebook to create image pairs from the original CEDAR dataset. The results are saved as X.npy(pairs) and y.npy(labels);  
+[SVM model](https://www.kaggle.com/code/matteocarnebella/svm-model/notebook): SVM model's notebook. Takes as input the image pairs created with make_pairs notebook and (optionally) saves the svm models;

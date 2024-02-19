@@ -16,7 +16,7 @@ The data used can be downloaded from the following links:
 
 ## Kaggle Notebooks
 
-All the models and notebooks in this repository have been developed on  [Kaggle](kaggle.com), links below:  
+All the models and notebooks in this repository have been developed on  [Kaggle](https://www.kaggle.com/), links below:  
   
 [make_pairs](https://www.kaggle.com/code/matteocarnebella/make-pairs/notebook): utility notebook to create image pairs from the original CEDAR dataset. The results are saved as X.npy(pairs) and y.npy(labels);  
 [SVM model](https://www.kaggle.com/code/matteocarnebella/svm-model/notebook): SVM model's notebook. Takes as input the image pairs created with make_pairs notebook and (optionally) saves the svm models;
